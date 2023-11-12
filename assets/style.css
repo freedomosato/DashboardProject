@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ccc;
+    width: 100%;
+    height: auto;
+}
+
+.logo{
+    width: 15%;
+    height: 10vh;
+    padding: 15px 10px 5px 15px;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px #999;
+}
+
+.logo img{
+    width: 120px;
+    height: 30px;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    height: 55px;
+    padding: 0 10px;
+    box-shadow: 1px 1px 5px #999;
+    background-color: #ddd;
+}
+
+header h1{
+    font-size: 20px;
+    word-spacing: 0;
+    margin-right: 40px;
+}
+
+header .div1{
+    height: 30px;
+    position: relative;
+    margin-left: 20%;
+    left: 60px;
+}
+
+header .div1 .input{
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+    padding: 0 50px 0 10px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    border: solid 2px #ddd;
+    outline: none;
+    font-weight: 900;
+}
+
+header .div1 .search{
+    position: absolute;
+    top: 50%;
+    right: 3px;
+    transform: translateY(-50%);
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+header .div2{
+    margin-right: 60px;
+    display: flex;
+}
+
+header .div2 .user{
+    margin-left: 30px;
+}
+
+/* .container1 */
+
+main .container1{
+    width: 15%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+
+main .container1 .cont1-board{
+    width: 100%;
+}
+
+main .container1 .cont1-board .overboard{
+    display: flex;
+    color: #fff;
+    margin: 5px 0;
+    padding: 10px 10px 10px 40px;
+    background-color: #000;
+}
+
+main .container1 .cont1-board .overboard .dash{
+    margin-right: 10px;
+    color: #fff;
+    height: 20px;
+}
+main .container1 .cont1-board .overboard p{
+    font-size: 14px;
+    margin-top: 2px;
+}
+
+main .container1 .upgrade{
+    height: auto;
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 1px 1px 6px #999;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+main .container1 .upgrade .upgrade-img{
+    width: 80%;
+    height: 120px;
+    margin: auto;
+    display: block;
+    padding-top: 0;
+}
+
+main .container1 .upgrade p{
+    font-size: 14px;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+main .container1 .upgrade button{
+    width: 70%;
+    display: block;
+    padding: 8px 20px;
+    background-color: #003800;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    margin: 0 auto;
+    
+}
+
+/* .container2 */
+
+.container2{
+    width: 85%;
+    padding-left: 10px;
+}
+.container2 .chart-div{
+    width: 83%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    right: 10px;
+    top: 70px;
+}
+.container2 .chart-div .chart{
+    width: 30%;
+    height: 100px;
+    margin: 0 auto;
+    background-color: #ddd;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 1px 1px 6px #444;
+}
+.container2 .chart-div .chart div{
+    width: 100px;
+    height: 100px;
+}
+.container2 .chart-div .chart div p:nth-child(1){
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* table */
+.container2 table{
+    width: 83%;
+    position: absolute;
+    right: 10px;
+    top: 200px;
+    text-transform: capitalize;
+    background-color: #eee;
+    border-radius: 10px;
+    padding: 0 10px 10px;
+    box-shadow: 0 1px 5px #000,
+                0 -1px 5px #000;
+}
+.container2 table .firstrow{
+    background-color: #000;
+    height: 20px;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+    padding: 10px;
+}
+.container2 table tr td{
+    line-height: 1.5;
+    text-align: center;
+}
+.container2 table tr .course{
+    text-align: left;
+    padding-left: 20px;
+    width: 300px;
+}
+.container2 .motivation{
+    width: 83%;
+    height: 130px;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 0 3px 60px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    position: fixed;
+    right: 10px;
+    bottom: 5px;
+}
+.container2 .motivation .item1 h3{
+    font-size: 24px;
+    font-family: 'Roboto Mono', monospace;
+    margin: 10px 0;
+}
+.container2 .motivation .item1 button{
+    padding: 5px 10px;
+    color: rgba(255, 0, 0, 0.5);
+    border-radius: 10px;
+    border: none;
+    font-size: 12px;
+    margin: 10px 0;
+    font-family: 'Roboto Mono', monospace;
+}
+.container2 .motivation .item1 p{
+    font-size: 13px;
+    font-weight: 300;
+}
+.container2 .motivation .item2 img{
+    width: 180px;
+    height: 150px;
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* @media query */
+
+@media(max-width: 1024px){
+    .logo{
+        padding-left: 5px;
+        width: 26%;
+    }
+    .logo img{
+        width: 100px;
+    }
+    header .div2 .user{
+        margin-left: 10px
+    }
+    main .container1 .cont1-board .overboard{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    main .container1 .cont1-board .overboard .dash{
+        width: 20px;
+        height: 15px;
+    }
+    main .container1 .cont1-board .overboard p{
+        font-size: 13px;
+    }
+    main .container1 .upgrade button{
+        width: 100%;
+    }
+
+    /* .container2 .chart-div .chart{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    } */
+    .container2 .chart-div .char div{
+        margin: 0 auto;
+    }
+}
+
+@media(max-width: 768px){
+    .logo{
+        padding-left: 10px;
+        width: 26%;
+        height: 50px;
+        
+    }
+    main .container1{
+       display: none;
+    }
+    header{
+        width: 74%;
+    }
+    header h1{
+        margin-right: 10px;
+    }
+    header .div1{
+        top: 60px;
+        width: 100%;
+    }
+    header .div1 .input{
+       width: 350px; 
+    }
+    header .div2{
+        margin-right: 10px;
+    }
+    main .container1 .cont1-board{
+        width: 98%;  
+    }
+    main .container2 table{
+        width: 95%;
+        margin-left: 5px;
+        top: 280px;
+    }
+    .container2 table tr{
+        border: 1px solid;
+    }
+    .container2 .chart-div{
+        width: 95%;
+        top: 140px;
+    }
+    .container2 .chart-div .chart{
+        width: 32%;
+    }
+    .container2 .motivation{
+        width: 95%;
+        bottom: 10px;
+        padding-left: 10px;
+        height: 150px;
+    }
+    .container2 .motivation h3{
+        width: 80%;
+    }
+    .container2 .motivation p{
+        width: 90%;
+        background-color: #000;
+    }
+    .container2 .motivation .item2 img{
+        right: -15px;
+        height: 180px;
+    }
+    .container2 .chart-div .chart div p:nth-child(1){
+        font-size: 14px;
+        font-weight: 900;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+

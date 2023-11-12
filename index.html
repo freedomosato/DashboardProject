@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Dashboard</title>
+    <link href="assets/style.css" rel="stylesheet" type="text/css"/>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2 family=Agbalumo&family=Nunito:wght@300;400;700;900&family=Oswald:wght@200;300;400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="logo"><img src="assets/image/Instincthub logo.png"> </div>
+    <header>
+        <h1>My course dashboard</h1>
+        <div class="div1">
+            <input type="text" class="input">
+            <img src="assets/image/bx_bx-search.png" class="search">
+        </div>
+        <div class="div2">
+            <img src="assets/image/codicon_bell-dot.png" class="notification">
+            <img src="assets/image/User profile.png" class="user"> 
+        </div>
+    </header>
+    <main>
+        <div class="container1">
+            <div class="cont1-board">
+                <div class="overboard"><!--overboard1 start-->
+                    <img src="assets/image/bx_bxs-dashboard.png" class="dash">
+                    <p>Overview</p>
+                </div><!--overboard1 end-->
+                
+                <div class="overboard"><!--overboard2 start-->
+                    <img src="assets/image/akar-icons_file.png" class="dash">
+                    <p>Classes</p>
+                </div><!--overboard2 end-->
+                
+                <div class="overboard"><!--overboard3 start-->
+                    <img src="assets/image/codicon_graph.png" class="dash">
+                    <p>Analytics</p>
+                </div><!--overboard3 end-->
+                
+                <div class="overboard"><!--overboard4 start-->
+                    <img src="assets/image/ic_baseline-group.png" class="dash">
+                    <p>Community</p>
+                </div><!--overboard4 end-->
+                
+                <div class="overboard"><!--overboard5 start-->
+                    <img src="assets/image/fe_logout.png" class="dash">
+                    <p>Logout</p>
+                </div><!--overboard5 end-->
+            </div>
+            <div class="upgrade">
+                <img src="assets/image/Upgrade illustration.png" class="upgrade-img">
+                <p>Upgrade your student portal account</p>
+                <button>Upgrade</button>
+            </div>
+        </div>
+            
+        <div class="container2">
+            <div class="chart-div">
+                <div class="chart"><!--chart1 start-->
+                    <div>
+                        <canvas id="myChart0" class="myChart" width="4" height="4">71%</canvas>
+                    </div>
+                    <div>
+                        <p>Daily</p>
+                        <p>Activities</p>
+                    </div>
+                </div><!--chart1 end-->
+                
+                <div class="chart"><!--chart2 start-->
+                    <div>
+                        <canvas id="myChart1" class="myChart" width="4" height="4">20%</canvas>
+                    </div>
+                    <div>
+                        <p>Monthly</p>
+                        <p>Activities</p>
+                    </div>
+                </div><!--chart2 end-->
+                
+                <div class="chart"><!--chart3 start-->
+                    <div>
+                        <canvas id="myChart2" class="myChart" width="4" height="4">12%</canvas>
+                    </div>
+                    <div>
+                        <p>Yearly</p>
+                        <p>Activities</p>
+                    </div>
+                </div><!--chart1 end-->
+            </div>
+            <div class="table">
+                <table>
+                    <tr class="firstrow">
+                        <th>No</th>
+                        <th>Course Name</th>
+                        <th>Department</th>
+                        <th>Units</th>
+                        <th>GPA</th>
+                    </tr>
+                    <tr>
+                        <td>0</td>
+                        <td class="course">Tax Academy introduction</td>
+                        <td class="course">finances</td>
+                        <td>3</td>
+                        <td>4.3/5</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td class="course">transfer pricing</td>
+                        <td class="course">customer services</td>
+                        <td>3</td>
+                        <td>4.3/5</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td class="course">Tax Academy for beginners</td>
+                        <td class="course">purchasing</td>
+                        <td>3</td>
+                        <td>4.3/5</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td class="course">new business</td>
+                        <td class="course">finances</td>
+                        <td>3</td>
+                        <td>4.0/5</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td class="course">Tax accounting</td>
+                        <td class="course">administration</td>
+                        <td>8</td>
+                        <td>4.7/5</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td class="course">motion design</td>
+                        <td class="course">IT dept.</td>
+                        <td>6</td>
+                        <td>4.4/5</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td class="course">3D modelling</td>
+                        <td class="course">IT dept</td>
+                        <td>3</td>
+                        <td>4.0/5</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td class="course">brand strategy on instagram</td>
+                        <td class="course">marketing</td>
+                        <td>3</td>
+                        <td>4.7/5</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="motivation">
+                <div class="item1">
+                    <h3>When nothing goes right, go left</h3>
+                    <p>Build your skills with courses and degree online from <br> anywhere with professional instructors</p>
+                    <button>Learn more</button>
+                </div>
+                <div class="item2">
+                    <img src="assets/image/female image.png" class="female">
+                </div>
+            </div>
+        </div>
+        
+        
+        
+    </main>
+    <footer>
+        
+    </footer>
+
+    
+
+    
+    <script src="script1.js"></script>
+
+</body>
+
+</html>
